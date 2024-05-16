@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
+# Hangman Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hangman is a classic word-guessing game built with React and TypeScript. Players try to guess a secret word by suggesting letters within a certain number of attempts. 
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Simple and intuitive interface<br>
+✅ Randomly generated words for endless gameplay<br>
+✅ Visual feedback on correct and incorrect guesses<br>
+✅ Win and lose conditions with appropriate messages<br>
 
-## Expanding the ESLint configuration
+## Usage
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- When the game loads, you'll see a row of underscores representing the letters of the secret word.
+- Click on the letters to guess them.
+- If the letter is part of the word, it will reveal itself in the correct positions.
+- If the letter is not part of the word, part of the hangman will be drawn.
+- Keep guessing until you either complete the word or run out of attempts.
+- If you complete the word, you win! If you run out of attempts, you lose.
 
-- Configure the top-level `parserOptions` property like this:
+![Hangman game example](https://raw.githubusercontent.com/olyanya/react-hangman-game/main/src/examples/hangman-1.png?token=GHSAT0AAAAAACPHGDOCFLABQJMM7UTUBCJSZSGA6SA)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Technologies Used
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- React
+- TypeScript
+- CSS 
