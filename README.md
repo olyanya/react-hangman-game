@@ -18,10 +18,19 @@ Hangman is a classic word-guessing game built with React and TypeScript. Players
 - Keep guessing until you either complete the word or run out of attempts.
 - If you complete the word, you win! If you run out of attempts, you lose.
 
+## Screenshots 
+
 ![Hangman game example](https://raw.githubusercontent.com/olyanya/react-hangman-game/main/src/examples/hangman-1.png?token=GHSAT0AAAAAACPHGDOCFLABQJMM7UTUBCJSZSGA6SA)
+![Hangman game example](https://raw.githubusercontent.com/olyanya/react-hangman-game/main/src/examples/hangman-2.png?token=GHSAT0AAAAAACPHGDODB4SK4RUSEXFBPWNYZSGA76A)
+![Hangman game example](https://raw.githubusercontent.com/olyanya/react-hangman-game/main/src/examples/hangman-3.png?token=GHSAT0AAAAAACPHGDOD2J65VXW7P52HCIJ4ZSGBADQ)
+![Hangman game example](https://raw.githubusercontent.com/olyanya/react-hangman-game/main/src/examples/hangman-4.png?token=GHSAT0AAAAAACPHGDODS362EOB27HDTCAOEZSGBAIQ)
 
 ## Technologies Used
 
 - React
 - TypeScript
 - CSS 
+
+# License
+
+This project is licensed under the MIT License.
